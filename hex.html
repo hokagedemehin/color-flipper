@@ -8,7 +8,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="hex.js"></script>
+    <script src="hex.js" defer></script>
   </head>
   <body>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
@@ -29,15 +29,17 @@
       </nav>
 
       <div class="d-flex flex-column align-items-center" style="margin-top: 30vh;">
-          <h2>Background Color: 
-              <span class="color">
+          <h2 class='text' style="background-color: black; color: white">Background Color: 
+              <span class=" text color">
                   #f1f5f8
               </span>
           </h2>
           
-          <button type="button" class="btn btn-info">Click Me</button>
+          <button class="btn btn-outline-info mt-3" id='btn'>Click Me</button>
           
       </div>
+
+    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
